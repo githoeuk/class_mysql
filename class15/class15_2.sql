@@ -99,5 +99,8 @@ from post;
 
 select 
 	title,
-    concat(cast(view_count as char) , '회') as '조회 수' 
+    concat(cast(view_count as char) , ' 회') as '조회 수' 
 from post;
+
+select title,view_count,nickname,content
+from
